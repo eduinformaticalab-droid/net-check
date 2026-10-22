@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-10-22T15:09:37.794227+00:00",
+  "passed": 2,
+  "total": 3,
+  "results": [
+    {
+      "kind": "DNS",
+      "target": "example.com",
+      "ok": true,
+      "elapsed_ms": 12.5,
+      "detail": "DEMO: datos ficticios; no se ha consultado la red",
+      "error": null
+    },
+    {
+      "kind": "TCP",
+      "target": "example.com:443",
+      "ok": false,
+      "elapsed_ms": 4000,
+      "detail": "DEMO: timeout simulado",
+      "error": "Timeout ficticio"
+    },
+    {
+      "kind": "HTTPS",
+      "target": "https://example.com",
+      "ok": true,
+      "elapsed_ms": 85,
+      "detail": "DEMO: HTTP 200 ficticio",
+      "error": null
+    }
+  ],
+  "demo": true
+}

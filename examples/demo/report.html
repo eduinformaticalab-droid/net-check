@@ -1,0 +1,10 @@
+<!doctype html><html lang="es"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Net-Check · Informe</title><style>
+body{font:16px system-ui;background:#0c1424;color:#e7eefb;margin:0;padding:5vw}
+main{max-width:1100px;margin:auto}h1{font-size:42px;margin-bottom:8px}
+p{color:#a7b7d0}.summary{background:#17334b;padding:22px;border-radius:16px;font-size:24px}
+.scroll{overflow:auto}table{width:100%;border-collapse:collapse;margin-top:28px}
+th,td{text-align:left;padding:15px;border-bottom:1px solid #2b3b52}th{color:#6de0c2}
+td:last-child{overflow-wrap:anywhere;min-width:200px}footer{margin-top:30px;color:#a7b7d0}
+</style><main><h1>Net-Check</h1><p>Diagnóstico de conectividad</p><p><strong>DEMO: datos ficticios, sin acceso a la red.</strong></p><div class="summary">2 / 3 comprobaciones correctas</div><p>2026-10-22T15:09:37.794227+00:00</p><div class="scroll"><table><thead><tr><th>Prueba</th><th>Destino</th><th>Estado</th><th>Tiempo (ms)</th><th>Detalle</th></tr></thead><tbody><tr><td>DNS</td><td>example.com</td><td>OK</td><td>12.5</td><td>DEMO: datos ficticios; no se ha consultado la red</td></tr><tr><td>TCP</td><td>example.com:443</td><td>FALLO</td><td>4000</td><td>DEMO: timeout simulado</td></tr><tr><td>HTTPS</td><td>https://example.com</td><td>OK</td><td>85</td><td>DEMO: HTTP 200 ficticio</td></tr></tbody></table></div><footer>El tiempo mide la comprobación completa, no el ping. Un fallo puede deberse a un bloqueo o al destino; no demuestra por sí solo una avería de tu conexión.</footer></main></html>
